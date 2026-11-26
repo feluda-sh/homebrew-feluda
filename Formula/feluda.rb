@@ -4,21 +4,21 @@ class Feluda < Formula
   version "1.0.0-beta.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/feluda-sh/cli/releases/download/v1.0.0-beta.1/feluda-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-aarch64-apple-darwin.tar.xz"
       sha256 "b95117f103e6992818ed7c140b871646e7f2e9b138900f4a93d5e6a6c7490829"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feluda-sh/cli/releases/download/v1.0.0-beta.1/feluda-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-x86_64-apple-darwin.tar.xz"
       sha256 "ca45b18471d25038e82da9b25b191388861b1fedf76db65310794b1bc95dbc3c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/feluda-sh/cli/releases/download/v1.0.0-beta.1/feluda-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "ad834d815155cbfd934c8fe86b0d74ec66327efdc191d378254446b81a2f28e8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feluda-sh/cli/releases/download/v1.0.0-beta.1/feluda-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "4cea85964c133140d883316380a9370bc8a292e563bb66666954290b22320900"
     end
   end
