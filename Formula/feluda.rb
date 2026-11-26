@@ -1,25 +1,25 @@
 class Feluda < Formula
   desc "Terminal UI for the Feluda AI code reviewer"
   homepage "https://github.com/feluda-sh/cli"
-  version "1.0.0-beta.1"
+  version "1.0.0-beta.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-aarch64-apple-darwin.tar.xz"
-      sha256 "b95117f103e6992818ed7c140b871646e7f2e9b138900f4a93d5e6a6c7490829"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.2/feluda-aarch64-apple-darwin.tar.xz"
+      sha256 "bbf803c080505751eb566932c2f0f5aef44c7c3f7f89d1c9375dac211f26b30b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-x86_64-apple-darwin.tar.xz"
-      sha256 "ca45b18471d25038e82da9b25b191388861b1fedf76db65310794b1bc95dbc3c"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.2/feluda-x86_64-apple-darwin.tar.xz"
+      sha256 "0c13adb586f0a900d0cfef29c56e03aab29e52d7643a80a8f274989538b75521"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ad834d815155cbfd934c8fe86b0d74ec66327efdc191d378254446b81a2f28e8"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.2/feluda-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "08bfbc0e50b3fe534d6ce613f03bf4df4b120d10210c9c732cc09856cef2df36"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.1/feluda-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4cea85964c133140d883316380a9370bc8a292e563bb66666954290b22320900"
+      url "https://github.com/feluda-sh/feluda-releases/releases/download/v1.0.0-beta.2/feluda-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3de358216a961cabafc8edaf32440aef37a052df411a6aba83b48bd51d6fd17b"
     end
   end
   license "Apache-2.0"
